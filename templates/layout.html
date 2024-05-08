@@ -23,55 +23,36 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <img class="logo" src="static/css/img/logotipo.png">
-
             <a class="navbar-brand" href="#">
-                <h3>
-                    <span class="name">Lucia Valverde</span> <br>
-                    <span class="fitness">Fitness</span>
-                </h3>
-                <h6>
-                    <span class ="encabezado"></span>Entrenamiento Personalizado y <br> Nutricion Deportiva <br> Online</span> 
-                </h6>
-            </a>
-            <style>
-                .navbar-nav {
-                    display: flex;
-                    list-style: none;
-                    /* Para quitar los puntos de lista */
-                    padding-left: 0;
-                    /* Para quitar el relleno izquierdo predeterminado */
-                }
-            
-                .nav-item {
-                    margin-right: auto;
-                    /* Mueve este elemento (el último) a la derecha */
-                }
-            </style>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ url_for('about')}}">About</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-            </button>
-            <ul class="dropdown-menu">
-                <li><button class="dropdown-item" type="button">mas</button></li>
-                <li><button class="dropdown-item" type="button">Another action</button></li>
-                <li><button class="dropdown-item" type="button">Something else here</button></li>
+            <h3>
+                <span class="name"href="#" >Lucia Valverde </span> <br>
+                <span class="fitness">Fitness</span>
+            </h3>
+            <h6>
+                <span class ="encabezado"></span>Entrenamiento Personalizado y <br> Nutricion Deportiva <br> Online</span> 
+            </h6>  
+        </div>   
+    </nav>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link home active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link features" href="python-website\templates\about.html">about</a>
+                    
+                </li>
             </ul>
         </div>
-    </nav>
-
-    S
-    <hr>
+    </div>
+</nav>
     
 
 
